@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+select {
+  background-color: white;
+  border : none;
+  font-size: 18px
+}
+label {
+  font-size: 18px;
+  padding: 5px;
+}
