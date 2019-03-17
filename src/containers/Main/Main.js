@@ -24,7 +24,7 @@ class Main extends Component {
         let hmr45, hmr60;
         let less = {}, avg = {}, high = {};
 
-        axios.get('http://localhost:8001/country')
+        axios.get('http://localhost:8001/years')
         .then(countryData => {
             countryData.data.aggregations.year.buckets.forEach(year => {
                 if(year.key == this.state.filter.year) {
@@ -36,7 +36,7 @@ class Main extends Component {
                     });
                 }
             });
-            return axios.get('http://localhost:8000/state');
+            return axios.get('http://localhost:8000/states');
         })
         .then(stateData => {
             stateData.data.aggregations.year.buckets.forEach(year => {
