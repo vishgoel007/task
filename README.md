@@ -3,6 +3,7 @@
 Go project directory and run
 
 ### `npm install`
-### `json-server --watch state.json -p 8000`
-### `json-server --watch country.json -p 8001`
+### `json-server --watch states.json -p 8000`
+### `json-server --watch years.json -p 8001`
 ### `npm start`
+
