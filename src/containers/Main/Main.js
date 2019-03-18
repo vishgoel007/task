@@ -107,11 +107,11 @@ class Main extends Component {
                             color = {statesConfiguration.lesser.color}
                             states = {this.state.states.lesser} />
 
-                    <Statelist title = {statesConfiguration.lesser.title} 
+                    <Statelist title = {statesConfiguration.average.title} 
                             color = {statesConfiguration.average.color} 
                             states = {this.state.states.average} />
 
-                    <Statelist title = {statesConfiguration.lesser.title} 
+                    <Statelist title = {statesConfiguration.higher.title} 
                             color = {statesConfiguration.higher.color} 
                             states = {this.state.states.higher} />
 
